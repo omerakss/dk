@@ -1,0 +1,84 @@
+{
+    "tr": {
+        "title": "Ömer Ali Akkuş | Dijital Kartvizit",
+        "occupation": "Gömülü Sistemler & Mobil — Maker / Öğrenci",
+        "email": "E-Posta",
+        "website": "Web Sitesi",
+        "detailed_info": "Detaylı Bilgi",
+        "about_title": "Hakkımda",
+        "about_text": "Ben Ömer Ali Akkuş. Bilişim ve yazılım alanına ilgim yüksek; otomasyon, veri yönetimi ve teknoloji odaklı çözümler geliştirmeye odaklanıyorum. Farklı projelerle hem pratik deneyim kazanıyor hem de uzun vadede kendi girişimlerimi hayata geçirecek birikimi oluşturuyorum.",
+        "contact_title": "İletişim",
+        "add_to_contacts": "Rehbere Ekle",
+        "modal_skills": "Yetenekler",
+        "modal_competitions": "Yarışmalar",
+        "modal_close": "Kapat",
+        "comp_info": "Yarışma bilgileri yakında eklenecek...",
+        "skill_categories": [
+            {
+                "title": "Gömülü Sistemler & Elektronik",
+                "desc": "Arduino Uno / Leonardo, ESP8266, RC522 RFID, DS1302 RTC, Nokia 5110 & 20x4 I2C LCD, röle, buzzer, PIR sensörü, SD kart modülü, sensör verisi okuma, veri kaydı ve kontrol devreleri."
+            },
+            {
+                "title": "Programlama & Yazılım Geliştirme",
+                "desc": "C/C++ (Arduino), Python (Kivy, otomasyon, veri işleme), Java (Android Studio), MMJoy2 entegrasyonu, UART/I2C/SPI haberleşmesi, hata ayıklama ve sistem optimizasyonu."
+            },
+            {
+                "title": "Mobil Uygulama Geliştirme",
+                "desc": "Kivy framework ile çok platformlu arayüz tasarımı, Android Studio ile NFC tabanlı kimlik doğrulama, veri saklama, modüler ekran yapısı ve UI/UX düzeni."
+            },
+            {
+                "title": "IoT & Ağ Sistemleri",
+                "desc": "ESP8266 üzerinden Wi-Fi bağlantısı, HTTP tabanlı cihaz kontrolü, yerel ağ veri aktarımı, bulut loglama ve uzaktan yönetim altyapısı."
+            },
+            {
+                "title": "Yapay Zeka & Web Entegrasyon",
+                "desc": "GPT tabanlı çeviri eklentileri, API bağlantıları, kullanıcı token sistemleri, freemium planlama, web üzerinde AI destekli çeviri ve entegrasyon projeleri."
+            },
+            {
+                "title": "Donanım Projeleri & Sistem Tasarımı",
+                "desc": "RFID tabanlı giriş-çıkış sistemleri, akıllı sulama kontrolü, akıllı tahta yazılımı, drone kumandası (Multiplex Profi MC 3010) ve FPV drone sistem entegrasyonu."
+            }
+        ]
+    },
+    "en": {
+        "title": "Ömer Ali Akkuş | Digital Business Card",
+        "occupation": "Embedded Systems & Mobile — Maker / Student",
+        "email": "Email",
+        "website": "Website",
+        "detailed_info": "Detailed Info",
+        "about_title": "About Me",
+        "about_text": "I'm Ömer Ali Akkuş. I have a high interest in IT and software; focusing on automation, data management, and developing technology-oriented solutions. I gain practical experience through different projects and build up knowledge to launch my own ventures in the long run.",
+        "contact_title": "Contact",
+        "add_to_contacts": "Add to Contacts",
+        "modal_skills": "Skills",
+        "modal_competitions": "Competitions",
+        "modal_close": "Close",
+        "comp_info": "Competition info coming soon...",
+        "skill_categories": [
+            {
+                "title": "Embedded Systems & Electronics",
+                "desc": "Arduino Uno / Leonardo, ESP8266, RC522 RFID, DS1302 RTC, Nokia 5110 & 20x4 I2C LCD, relays, buzzers, PIR sensors, SD card modules, sensor data reading, data logging, and control circuits."
+            },
+            {
+                "title": "Programming & Software Development",
+                "desc": "C/C++ (Arduino), Python (Kivy, automation, data processing), Java (Android Studio), MMJoy2 integration, UART/I2C/SPI communication, debugging, and system optimization."
+            },
+            {
+                "title": "Mobile App Development",
+                "desc": "Multi-platform interface design with Kivy framework, NFC-based authentication with Android Studio, data storage, modular screen structure, and UI/UX layout."
+            },
+            {
+                "title": "IoT & Network Systems",
+                "desc": "Wi-Fi connectivity via ESP8266, HTTP-based device control, local network data transfer, cloud logging, and remote management infrastructure."
+            },
+            {
+                "title": "AI & Web Integration",
+                "desc": "GPT-based translation plugins, API connections, user token systems, freemium planning, AI-supported translation on the web, and integration projects."
+            },
+            {
+                "title": "Hardware Projects & System Design",
+                "desc": "RFID-based access control systems, smart irrigation control, smart board software, drone controller (Multiplex Profi MC 3010), and FPV drone system integration."
+            }
+        ]
+    }
+}
