@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:[Ad Soyad]
+N:;[Ad Soyad];;;
+TITLE:[Ünvan]
+ORG:[Şirket Adı]
+EMAIL;TYPE=INTERNET:[E-posta Adresi]
+TEL;TYPE=CELL:[Telefon Numarası]
+URL:[Web Sitesi]
+END:VCARD

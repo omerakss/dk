@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dijital Kartvizit</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 flex items-center justify-center min-h-screen p-4">
+
+    <div class="max-w-md w-full bg-white rounded-3xl shadow-xl overflow-hidden transition-all duration-300 hover:shadow-2xl">
+        <div class="h-32 bg-gradient-to-r from-gray-800 to-gray-900"></div>
+
+        <div class="px-6 pb-8">
+            <div class="flex flex-col">
+                <div class="w-28 h-28 bg-white rounded-2xl shadow-lg flex items-center justify-center border-4 border-white overflow-hidden -mt-14">
+                    <img src="https://ui-avatars.com/api/?name=Ad+Soyad&background=random&size=128" alt="Profil" class="w-full h-full object-cover">
+                </div>
+
+                <div class="mt-4">
+                    <h1 class="text-3xl font-bold text-gray-900">[Ad Soyad]</h1>
+                    <p class="text-lg text-gray-600 font-medium">[Ünvan / Ne Yaptığı]</p>
+                </div>
+            </div>
+
+            <div class="mt-6">
+                <h2 class="text-sm font-semibold text-gray-400 uppercase tracking-wider">Yetenekler</h2>
+                <div class="flex flex-wrap gap-2 mt-2">
+                    <span class="px-3 py-1 bg-gray-100 text-gray-700 text-sm rounded-full">Yetenek 1</span>
+                    <span class="px-3 py-1 bg-gray-100 text-gray-700 text-sm rounded-full">Yetenek 2</span>
+                    <span class="px-3 py-1 bg-gray-100 text-gray-700 text-sm rounded-full">Yetenek 3</span>
+                </div>
+            </div>
+
+            <div class="mt-8 flex gap-4">
+                <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full bg-gray-100 text-gray-600 hover:bg-gray-800 hover:text-white transition-colors">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full bg-gray-100 text-gray-600 hover:bg-gray-800 hover:text-white transition-colors">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full bg-gray-100 text-gray-600 hover:bg-gray-800 hover:text-white transition-colors">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full bg-gray-100 text-gray-600 hover:bg-gray-800 hover:text-white transition-colors">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+
+            <div class="mt-8 pt-6 border-t border-gray-100">
+                <button id="more-info-btn" class="flex items-center justify-between w-full text-left text-gray-900 font-semibold focus:outline-none hover:text-gray-600 transition-colors">
+                    Daha Fazla Bilgi
+                    <i id="chevron" class="fas fa-chevron-down transition-transform duration-300"></i>
+                </button>
+                <div id="more-info-content" class="max-h-0 overflow-hidden transition-all duration-500 ease-in-out mt-0 text-gray-600 text-sm leading-relaxed">
+                    <div class="pt-4">
+                        Burada hakkınızda daha detaylı bilgiler, projeleriniz veya diğer önemli detaylar yer alabilir. Minimalist ve profesyonel bir görünüm için bu bölümü temiz tutmanız önerilir.
+                        Örneğin; tamamladığınız büyük projeler, aldığınız sertifikalar veya çalışma felsefenizden bahsedebilirsiniz.
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a href="contact.vcf" class="block w-full py-3 bg-gray-900 text-white text-center rounded-xl font-semibold hover:bg-gray-800 transition-colors">
+                    Rehbere Ekle
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const moreInfoBtn = document.getElementById('more-info-btn');
+        const moreInfoContent = document.getElementById('more-info-content');
+        const chevron = document.getElementById('chevron');
+
+        moreInfoBtn.addEventListener('click', () => {
+            if (moreInfoContent.style.maxHeight) {
+                moreInfoContent.style.maxHeight = null;
+            } else {
+                moreInfoContent.style.maxHeight = moreInfoContent.scrollHeight + "px";
+            }
+            chevron.classList.toggle('rotate-180');
+        });
+    </script>
+</body>
+</html>
